@@ -1,0 +1,291 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #fff5ee;
+}
+
+.right-pane{
+    margin-left: 2rem;
+    margin-top: 3rem;
+    width: 95%;
+    height: 100vh;
+}
+
+.right-pane .name{
+    margin-bottom: 2.5rem;
+}
+
+.right-pane .name h1{
+    font-weight: bolder;
+    color: #363636;
+}
+
+.right-pane .about .desc h3{
+    font-weight: bold;
+    color: #363636;
+}
+
+.right-pane .about .desc hr{
+    border: #363636 1px solid;
+}
+
+.right-pane .desc ul li{
+    color: #363636;
+    font-size: 18px;
+}
+
+table{
+    border-collapse: collapse;
+    padding: 1rem;
+    width: 70%;
+}
+  
+table, th, td{
+    border: 1px solid black;
+    text-align: left;
+}
+
+th, td{
+    padding: 10px;
+}
+
+th{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.right-pane .academic{
+    margin-top: 1rem;
+}
+
+.right-pane .academic .academic-title h3{
+    font-weight: bold;
+    color: #363636;
+}
+
+.right-pane .academic .academic-title hr{
+    border: #363636 1px solid;
+}
+
+.right-pane .work{
+    margin-top: 2rem;
+}
+
+.right-pane .work h3{
+    font-weight: bold;
+    color: #363636;
+}
+
+.right-pane .work hr{
+    border: #363636 1px solid;
+}
+.right-pane ul li{
+    padding: 5px;
+}
+
+.right-pane .projects{
+    margin-top: 2rem;
+}
+
+.right-pane .projects h3{
+    font-weight: bold;
+    color: #363636;
+}
+
+.right-pane .projects hr{
+    border: #363636 1px solid;
+}
+
+.right-pane .responsibilities{
+    margin-top: 2rem;
+}
+
+.right-pane .responsibilities h3{
+    font-weight: bold;
+    color: #363636;
+}
+
+.right-pane .responsibilities hr{
+    border: #363636 1px solid;
+}
+
+.right-pane .responsibilities{
+    margin-top: 2rem;
+}
+
+.right-pane .responsibilities h3{
+    font-weight: bold;
+    color: #363636;
+}
+
+.right-pane .responsibilities hr{
+    border: #363636 1px solid;
+}
+
+.right-pane .courses{
+    margin-top: 2rem;
+}
+
+.right-pane .courses h3{
+    font-weight: bold;
+    color: #363636;
+}
+
+.right-pane .courses hr{
+    border: #363636 1px solid;
+}
+
+.left-pane{
+    width: 100%;
+    padding-left: 2rem;
+    background-color: #363636;
+    height: 325vh;
+}
+
+.left-pane img{
+    margin-top: 1.5rem;
+    width: 130px;
+    height: 130px;
+    margin-left: 3.5rem;
+    border-radius: 50%;
+    border: 1px white solid;
+}
+
+.left-pane .personal span{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.left-pane .personal .items span{
+    color: white;
+    font-size: 20px;
+}
+
+.left-pane .personal .items p{
+    color: white;
+    font-size: 15px;
+}
+
+.left-pane .personal hr{
+    border: white 1px solid;
+    margin-bottom: 1rem;
+}
+
+.left-pane .social span{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.left-pane .social .items span{
+    color: white;
+    font-size: 20px;
+}
+
+.left-pane .social .items p{
+    color: white;
+    font-size: 15px;
+}
+
+.left-pane .social hr{
+    border: white 1px solid;
+    margin-bottom: 1rem;
+}
+
+.left-pane .personal,.social .items i{
+    color: white;
+}
+
+.left-pane .resume_skills{
+    margin-left: -0.5rem;
+}
+
+.left-pane .resume_skills ul{
+    margin-left: -1rem;
+}
+
+.left-pane .resume_skills span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.left-pane .resume_skills hr{
+    border: white 1px solid;
+}
+
+.left-pane .resume_skills ul li .data {
+    color: white;
+}
+  
+.left-pane .resume_skills ul li {
+    display: flex;
+    margin-bottom: 10px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+.left-pane .resume_skills ul li .skill_name{
+    width: 25%;
+}
+  
+.left-pane .resume_skills ul li .skill_progress {
+    width: 50%;
+    margin: 0 5px;
+    height: 5px;
+    background: #9c9c9c;
+    position: relative;
+}
+  
+.left-pane .resume_skills ul li .skill_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+  }
+
+.left-pane .languages ul li{
+    font-size: 15px;
+    color: white;
+    padding-top: 5px;
+}
+
+.left-pane .languages span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.left-pane .languages hr{
+    border: white 1px solid;
+}
+
+.left-pane .hobbies{
+    margin-top: 2rem;
+}
+
+.left-pane .hobbies span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.left-pane .hobbies hr{
+    margin-bottom: 1rem;
+    border: white 1px solid;
+}
+
+.left-pane .hobbies i{
+    margin-top: 1rem;
+    color: white;
+}
+
+.left-pane .hobbies p{
+    color: white;
+    font-size: 15px;
+}
